@@ -16,7 +16,11 @@
     
     <body>
         <h1>Products</h1>
+      
         <%= table %>
-        
+       
+       <br><br>
+       <a href="add"> Add A New Product </a>
+       
     </body>
 </html>

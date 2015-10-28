@@ -70,6 +70,23 @@ public class ReadQuery {
         
         String table = "";
         table += "<table border=1>";
+        table += "<tr>";
+                table += "<th>";
+                table += "Product ID";
+                table += "</th>";
+                
+                table += "<th>";
+                table += "Product Name";
+                table += "</th>";
+           
+                table += "<th>";
+                table += "Price";
+                table += "</th>";
+                
+                table += "<th>";
+                table += "Unit in Stock";
+                table += "</th>";
+                table += "</tr>";
         
         try {
             while(this.results.next()){
@@ -79,8 +96,10 @@ public class ReadQuery {
                 product.setPRODUCTNAME(this.results.getString("PRODUCTNAME"));
                 product.setPRICE(this.results.getDouble("PRICE"));
                 product.setUNITINSTOCK(this.results.getInt("UNITINSTOCK"));
+             
                 
                 table += "<tr>";
+                
                 table += "<td>";
                 table += product.getPRODUCTID(); 
                 table += "</td>";
