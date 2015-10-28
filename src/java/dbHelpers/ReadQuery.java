@@ -116,6 +116,11 @@ public class ReadQuery {
                 table += product.getUNITINSTOCK(); 
                 table += "</td>";
                 
+                table += "<td>";
+                table += "<a href=delete?PRODUCTID=" + product.getPRODUCTID() + "> Delete </a>";
+                table += "</td>";
+                
+                
                 table += "</tr>";
                 
                 
