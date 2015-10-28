@@ -27,7 +27,7 @@ public class ReadQuery {
     
     public ReadQuery(){
        Properties props = new Properties();//MWC
-       InputStream instr = getClass().getResourceAsStream("dbConn.properties");
+   InputStream instr = getClass().getResourceAsStream("dbConn.properties");
         try {
             props.load(instr);
         } catch (IOException ex) {
@@ -38,11 +38,11 @@ public class ReadQuery {
         } catch (IOException ex) {
             Logger.getLogger(ReadQuery.class.getName()).log(Level.SEVERE, null, ex);
         }
-       
-       String driver = props.getProperty("driver.name");
-       String url = props.getProperty("server.name");
-       String username = props.getProperty("user.name");
-       String passwd = props.getProperty("user.password");
+    
+    String driver = props.getProperty("driver.name");
+    String url = props.getProperty("server.name");
+    String username = props.getProperty("user.name");
+    String passwd = props.getProperty("user.password");
         try {
             Class.forName(driver);
         } catch (ClassNotFoundException ex) {
@@ -53,8 +53,6 @@ public class ReadQuery {
         } catch (SQLException ex) {
             Logger.getLogger(ReadQuery.class.getName()).log(Level.SEVERE, null, ex);
         }
-       
-    
     
     }
  
