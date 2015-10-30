@@ -69,7 +69,7 @@ public class ReadQuery {
     public String getHTMLTable(){
         
         String table = "";
-        table += "<table border=1>";
+        table += "<table>";
         table += "<tr>";
                 table += "<th>";
                 table += "Product ID";
@@ -86,7 +86,14 @@ public class ReadQuery {
                 table += "<th>";
                 table += "Unit in Stock";
                 table += "</th>";
+                
+                table += "<th>";
+                table += "";
+                table += "</th>";
+                
                 table += "</tr>";
+                
+                
         
         try {
             while(this.results.next()){

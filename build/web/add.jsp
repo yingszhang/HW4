@@ -9,22 +9,28 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
         <title>Add A New Product</title>
     </head>
+    
+    <link rel="stylesheet" type="text/<css" href="./format.css">
     <body>
         <h1>Add A New Product</h1>
         <form name="addForm" action="addProduct" method="get">
             <label> Product Name:</label>
+            <br>
             <input type="text" name="name" value="" />
             <br>
             
             <label> Price:</label>
+            <br>
             <input type="text" name="price" value="" />
             <br>
             
             <label> Unit in Stock:</label>
-            <input type="text" name="unit" value="" />
             <br>
+            <input type="text" name="unit" value="" />
+            <br><br>
             <input type="submit" name="submit" value="submit" />
         </form>
     </body>

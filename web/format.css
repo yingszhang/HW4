@@ -1,12 +1,49 @@
-
-body {background-color:#D2B48C;}
-th {background-color: #FFFF99;
-    color: #696969;}
-table {
-    background-color:#F08080;
-    color: #FFFFFF;
-    border: 0px;
-    border-color: #FFFFFF;
-
-
+body{
+      background-color:#D2B48C;
+      margin: 8px;
+      border-color: white;
 }
+
+table{
+    background-color:white;
+    width: 700px;
+    padding: 5px;
+}
+
+th{
+    background-color: #FFFF99;
+    color:#696969;
+   
+}
+
+td{
+    background-color: #F08080;
+    color:#FFFFFF;
+   
+}
+table, td, th {
+    border: 1px solid white;
+}
+
+form{
+    height:150px;
+    width: 300px;
+    padding:15px;
+    background-color: #F08080;
+ 
+}
+
+label{
+   background-color: #F08080;
+    color:#FFFFFF;
+    width:100px;   
+}
+
+a {color: #696969;
+}
+
+
+h1{
+    color:black;
+}
+
