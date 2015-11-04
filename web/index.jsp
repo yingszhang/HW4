@@ -15,11 +15,17 @@
     
 
     <body>
-        
-        <h1>Products Database</h1>
-        <a href="read"> View All Products</a>
-        <br><br>
-        <a href="search.jsp"> Search Products</a>
-        
+       <div class="wrap"> <!--div to hold all other divs-->
+           <%@ include file="includes/header.jsp"%>
+           <%@ include file="includes/menu.jsp"%>
+           
+           <div class="main"> <!--main divs-->
+                <h1>Products Database</h1>
+                <a href="read"> View All Products</a>
+                <br><br>
+                <a href="search.jsp"> Search Products</a>
+           </div> <!-- close main div -->
+          <%@ include file="includes/footer.jsp"%>
+       </div> <!-- close the wrap div -->
     </body>
 </html>

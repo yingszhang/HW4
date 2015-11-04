@@ -12,17 +12,25 @@
         <title>JSP Page</title>
         <link rel="stylesheet" type="text/css" href="./format.css">
     </head>
-    
-    <%String table = (String) request.getAttribute("table"); %>
-    
+
+    <%String table = (String) request.getAttribute("table");%>
+
     <body>
-        <h1>Products</h1>
-      
-        <%= table %>
-       
-       <br><br>
-       <a href="add"> Add A New Product </a>
-       <br><br>
-       <a href="search.jsp"> Search Products</a>
+        <div class="wrap"> <!--div to hold all other divs-->
+            <%@ include file="includes/header.jsp"%>
+            <%@ include file="includes/menu.jsp"%>
+            <div class="main"> <!--main divs-->
+                <h1>Products</h1>
+
+                <%= table%>
+
+                <br><br>
+                <a href="add"> Add A New Product </a>
+                <br><br>
+                <a href="search.jsp"> Search Products</a>
+
+            </div> <!-- close main div -->
+            <%@ include file="includes/footer.jsp"%>
+        </div> <!-- close the wrap div -->
     </body>
 </html>
