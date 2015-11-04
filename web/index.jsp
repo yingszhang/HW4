@@ -18,5 +18,8 @@
         
         <h1>Products Database</h1>
         <a href="read"> View All Products</a>
+        <br><br>
+        <a href="search.jsp"> Search Products</a>
+        
     </body>
 </html>

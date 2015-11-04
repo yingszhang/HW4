@@ -24,7 +24,7 @@ public class UpdateQuery {
     private Connection conn;
     public UpdateQuery () {
     Properties props = new Properties();//MWC
-   InputStream instr = getClass().getResourceAsStream("dbConn.properties");
+    InputStream instr = getClass().getResourceAsStream("dbConn.properties");
         try {
             props.load(instr);
         } catch (IOException ex) {

@@ -22,6 +22,7 @@
        
        <br><br>
        <a href="add"> Add A New Product </a>
-       
+       <br><br>
+       <a href="search.jsp"> Search Products</a>
     </body>
 </html>
