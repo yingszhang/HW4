@@ -41,12 +41,14 @@
                     <br>
                     <input type="text" name="unit" value="<%= product.getUNITINSTOCK()%>" />
                     <br><br>
-                    <input type="reset" name="reset" value="Clear" />
+                    <input type="reset" value="Clear" id="clear">
                     <input type="submit" name="submit" value="Update" />
 
                 </form>
 
             </div> <!-- close main div -->
+            
+            <br><br>
             <%@ include file="includes/footer.jsp"%>
         </div> <!-- close the wrap div -->
     </body>

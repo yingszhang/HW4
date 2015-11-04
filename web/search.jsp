@@ -20,11 +20,12 @@
                 <h1>Search Products</h1>
                 <form name="searchForm" action="search" method="get">
                     <input type="text" name="searchVal" value="" />
-                    <br>
+                    <br><br>
                     <input type="submit" name="submit" value="Search"/>
                 </form>
 
             </div> <!-- close main div -->
+            <br><br>
             <%@ include file="includes/footer.jsp"%>
         </div> <!-- close the wrap div -->
     </body>

@@ -7,7 +7,7 @@
 		
 		
 		<div class="headerText"> <!--header text divs-->
-	         <h1>Welcome to software Design HW 6</h1>
+	        <h1>Welcome to Software Design HW 7</h1>
 	    </div> <!-- close header text div -->
 	    <br clear="all">
 

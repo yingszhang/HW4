@@ -35,9 +35,12 @@
                     <br>
                     <input type="text" name="unit" value="" />
                     <br><br>
+                    <input type="reset" value="Clear" id="clear">
                     <input type="submit" name="submit" value="submit" />
+                    
                 </form>
             </div> <!-- close main div -->
+            <br><br>
             <%@ include file="includes/footer.jsp"%>
         </div> <!-- close the wrap div -->
     </body>
