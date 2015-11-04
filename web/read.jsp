@@ -10,8 +10,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link rel="stylesheet" type="text/css" href="./format.css">
     </head>
-    <link rel="stylesheet" type="text/css" href="./format.css">
+    
     <%String table = (String) request.getAttribute("table"); %>
     
     <body>

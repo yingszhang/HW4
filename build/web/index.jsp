@@ -10,8 +10,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Products</title>
+        <link rel="stylesheet" type="text/css" href="./format.css">
     </head>
-    <link rel="stylesheet" type="text/<css" href="./format.css">
+    
 
     <body>
         
